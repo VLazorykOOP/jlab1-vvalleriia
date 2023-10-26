@@ -25,7 +25,8 @@ public class Task4 {
                 text = text + words[i]+ " ";
             }
         }
-        System.out.println(text);
+        System.out.println(text); 
+        in.close();
 
     }
 }
